@@ -1,0 +1,83 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  
+.center-align {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.box{
+    width: 1200px;
+    height: 300px;
+    display: grid;
+   justify-content: center;
+   align-items: center;
+}
+
+.left-align {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+ }
+
+
+.button {
+    width: 85px;
+    height: 25px;
+    background: #eaf7fa;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    border: 2px solid #7a94eb;
+    color: black;
+    line-height: 25px;
+    text-decoration: none;
+    margin: 50px
+}
+
+.calc-button {
+    border: 0.5px solid #999;
+    line-height: 100px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+}      
+
+#input {
+    text-align: center;
+    border: 2px solid black;
+    width: 285px;
+    height: 55px;
+}
+
+.highlight {
+    width: 85px;
+    height: 25px;
+    background: #f0cac8;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    border: 2px solid #f16b59;
+    color: black;
+    line-height: 25px;
+    text-decoration: none;
+    margin: 50px;
+    box-shadow: 2px 2px 1px rgb(202, 202, 202);
+}
+
+.signupform {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;   
+    max-width: 900px;
+}
+
+.inputarea {
+    width: 385px;
+    height: 55px;
+    border: 2px solid black;
+}
