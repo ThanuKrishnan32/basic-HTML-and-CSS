@@ -88,18 +88,11 @@ html, body {
     box-shadow: 2px 2px 1px rgb(202, 202, 202);
 }
 
-.signupform {
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    grid-template-columns: 1fr 1fr;   
-    max-width: 900px;
-}
-
 .inputarea {
-    width: 385px;
+    width: 395px;
     height: 55px;
     border: 2px solid black;
+    padding: 2px;
 }
 
 .zero-button {
@@ -132,3 +125,27 @@ html, body {
     width: 70px;
     margin-left: 50px;
 }    
+
+.form-container {
+    display: flex
+}
+
+.signup-button {
+    border: 2px solid black;
+    text-align: center;
+    font-size: 15px;
+    cursor: pointer;
+    background: white;
+    height: 50px;
+    width: 120px;
+    margin-left:150px;
+} 
+
+.signup-label {
+    text-align: center;
+    padding: 15px;
+    margin-right: 25px;
+    height: 66px;
+    width: 103px;
+}
+
