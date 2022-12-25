@@ -9,9 +9,9 @@ html, body {
    align-items: center;
 }
 
-.box{
-    width: 1200px;
-    height: 1200px;
+.center-block-align {
+    display: inline-block;
+    margin-left: 160px;
 }
 
 .text-box {
@@ -24,7 +24,7 @@ html, body {
 .grid3 {
   display: grid;
   gap: 5px;
-  grid-template-columns: repeat(3, 1fr)
+  grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 70px 70px 70px;
   grid-template-columns: 70px 70px 70px;	
   width: 220px;
@@ -101,7 +101,7 @@ html, body {
   	height: 70px;
   	margin-left: 250px;	
 	justify-content: center;
-        align-items: center;
+    align-items: center;
 	display: flex
 }
 
